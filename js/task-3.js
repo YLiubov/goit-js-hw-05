@@ -5,7 +5,7 @@
 
 const sortByDescendingFriendCount = (users) => {
     //* сортування масиву за спаданням кількості
-    return users.sort((a, b) => b.friends.length - a.friends.length);
+    return users.toSorted((a, b) => b.friends.length - a.friends.length);
 }
 
 // Решение через цикл:
